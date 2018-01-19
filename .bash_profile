@@ -29,8 +29,8 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 echo "set completion-ignore-case On" >> ~/.inputrc
 
 # script for tab completion in git commands
-if [ -f ~/.git-completion.bash ]; then
-  . ~/.git-completion.bash
+if [ -f ~/scripts/git-completion.bash ]; then
+  . ~/scripts/git-completion.bash
 fi
 
 # prevent duplicates in command history
