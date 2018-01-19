@@ -5,6 +5,7 @@ alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup
 
 # Google Chrome
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+# alias chrome='/usr/bin/open -a "/Applications/Google Chrome.app"'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
