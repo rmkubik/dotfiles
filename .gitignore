@@ -1,1 +1,10 @@
-/.dotfiles
+# Ignore all files in home
+*
+
+# Don't ignore files starting with a dot
+!.*
+
+# Overrides preceded with an exclamation point
+# Add dotfiles we don't wish to track here
+.dotfiles # need to ignore our bare git repo
+
