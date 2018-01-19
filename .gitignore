@@ -7,4 +7,4 @@
 # Overrides preceded with an exclamation point
 # Add dotfiles we don't wish to track here
 .dotfiles # need to ignore our bare git repo
-
+.bash_history
