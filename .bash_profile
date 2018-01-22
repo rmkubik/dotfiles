@@ -7,8 +7,8 @@ alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update; sudo gem cleanup'
 
 # Google Chrome
-alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
-# alias chrome='/usr/bin/open -a "/Applications/Google Chrome.app"'
+# alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+alias chrome='/usr/bin/open -a "/Applications/Google Chrome.app"'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
