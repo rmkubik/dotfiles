@@ -1,5 +1,5 @@
 # dotfiles repository command
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 
