@@ -32,3 +32,9 @@ fi
 
 # prevent duplicates in command history
 export HISTCONTROL=ignoreboth:erasedups
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+
+# This loads RVM into a shell session.
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
