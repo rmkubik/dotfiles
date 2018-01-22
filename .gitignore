@@ -9,3 +9,5 @@
 .dotfiles # need to ignore our bare git repo
 .bash_history
 .node_repl_history
+.nvm
+.rvm
