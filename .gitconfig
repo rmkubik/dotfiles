@@ -1,0 +1,23 @@
+[user]
+	name = Ryan Kubik
+	email = ryan.kubik@nike.com
+[color]
+	ui = true
+[push]
+	default = simple
+[alias]
+	co = checkout
+	cm = commit
+	st = status
+	br = branch
+	checkoutr = checkout
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = /Users/rkubik/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
