@@ -31,6 +31,9 @@ if [ -f ~/scripts/git-completion.bash ]; then
   . ~/scripts/git-completion.bash
 fi
 
+# add z.sh script
+. ~/scripts/z.sh
+
 # prevent duplicates in command history
 export HISTCONTROL=ignoreboth:erasedups
 
