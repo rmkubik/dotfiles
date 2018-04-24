@@ -34,6 +34,9 @@ fi
 # add z.sh script
 . ~/scripts/z.sh
 
+# add Itch.io butler cli to PATH
+export PATH="$PATH:~/Library/Application Support/itch/bin"
+
 # prevent duplicates in command history
 export HISTCONTROL=ignoreboth:erasedups
 
