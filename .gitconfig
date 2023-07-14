@@ -9,6 +9,13 @@
 	excludesfile = ~/.gitignore_global
 [push]
 	default = upstream
-# Include must be last in the file
+
+# There is a ~/.gitconfig.user.example in the dotfiles
+# repository. Create a ~/.gitconfig.user based on that
+# template for this include to work.
+#
+# This lets each computer using these dotfiles to have
+# a unique gitconfig user without needing to check
+# that into git.
 [include]
 	path = ~/.gitconfig.user
