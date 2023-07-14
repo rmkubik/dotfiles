@@ -13,3 +13,33 @@
 # This .gitignore helps yadm behave more as
 # I expect it to.
 *
+
+# Don't ignore dotfiles
+!/.*
+
+/.*/
+
+# We shouldn't track the filled out template
+# User should create their own based on the
+# .gitconfig.user.example
+.gitconfig.user
+
+# Mac files
+.DS_Store
+.CFUserTextEncoding
+.localized
+
+# History files
+.lesshst
+.python_history
+.zsh_history
+.z
+
+# Oh my zsh creates this 
+.inputrc
+
+# Oh my Zsh caches
+.zcompdump*
+
+# My company created this
+.npmrc
