@@ -17,6 +17,10 @@
 # Don't ignore dotfiles
 !/.*
 
+# Ignore hidden directories like
+# .oh-my-zsh and .nvm.
+# We might want to specifically override this
+# for things like .config in the future.
 /.*/
 
 # We shouldn't track the filled out template
