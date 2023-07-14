@@ -1,0 +1,15 @@
+# Ignore all files in the home directory.
+# We'll only track files specifically added
+# to yadm.
+# 
+# It's still useful to have this .gitignore
+# here even though yadm has this behavior
+# by default.
+# 
+# yadm status will only show tracked files.
+# However, yadm add . will try to add 
+# EVERY file, including untracked ones.
+# 
+# This .gitignore helps yadm behave more as
+# I expect it to.
+*
