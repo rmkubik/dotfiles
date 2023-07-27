@@ -19,3 +19,5 @@
 # that into git.
 [include]
 	path = ~/.gitconfig.user
+[rebase]
+	updateRefs = true
