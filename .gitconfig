@@ -9,6 +9,8 @@
 	excludesfile = ~/.gitignore_global
 [push]
 	default = upstream
+	autoSetupRemote = true
+
 
 # There is a ~/.gitconfig.user.example in the dotfiles
 # repository. Create a ~/.gitconfig.user based on that
