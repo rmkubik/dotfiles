@@ -28,6 +28,14 @@
 # .gitconfig.user.example
 .gitconfig.user
 
+# We should not track any *.local files this
+# user might need for this computer.
+#
+# We do this, for example, if you need work
+# specific environment variables in your shell
+# startup only on one computer.
+*.local
+
 # Mac files
 .DS_Store
 .CFUserTextEncoding
@@ -38,6 +46,7 @@
 .python_history
 .zsh_history
 .z
+.cockroachsql_history
 
 # Oh my zsh creates this 
 .inputrc
@@ -45,5 +54,10 @@
 # Oh my Zsh caches
 .zcompdump*
 
-# My company created this
+# This is going to be bespoke per computer dev
+# evironment
 .npmrc
+
+# I do not use vim, so don't want to persist 
+# these settings right now.
+.viminfo
