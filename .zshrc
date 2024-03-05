@@ -105,5 +105,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-LOCAL_ZSHRC = "./zshrc.local"
+LOCAL_ZSHRC="$HOME/.zshrc.local"
 test -f $LOCAL_ZSHRC && source $LOCAL_ZSHRC
